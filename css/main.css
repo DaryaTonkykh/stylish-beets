@@ -41,31 +41,40 @@ a {
   font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
-  font-size:1.125rem
+  font-size: 1.125rem;
 }
 
-  a:hover {
-  color: #222;
+a:hover {
   background-color: #3f1622;
-  border-color:#8f2440;
+  border-color: #8f2440;
   text-decoration: underline;
+  border-bottom: none;
 }
 
-h2 {color: #3f1622;
+nav ol li a:hover {
+  background-color: #3f1622;
+  border-color: #8f2440;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+h2 {
+  color: #3f1622;
   font-family: "PT Sans";
   font-size: 1.5rem;
-  font-weight: bold;}
+  font-weight: bold;
+}
 
 main {
   color: #222;
-  }
+}
 
 blockquote p {
   font-family: "PT Serif";
   font-style: italic;
   font-size: 1.5rem;
-  }
+}
 
- ol li .types {
-   list-style-type: lower-alpha;
- }
+.types {
+  list-style-type: lower-alpha;
+}
