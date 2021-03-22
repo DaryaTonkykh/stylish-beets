@@ -18,12 +18,33 @@ h1 {
   color: #3f1622;
   font-family: "PT Sans";
   font-size: 1.5rem;
+  font-weight: bold;
+}
+
+figcaption {
+  font-family: "PT Serif";
+  font-style: italic;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
 
 nav ol li {
   font-family: "PT Sans";
+  font-weight: bold;
   color: #8f2440;
   size:1.125rem
+}
+
+nav ol li:hover {
+}
+
+nav ol li a {
+  font-family: "PT Sans";
+  font-style: bold;
+  color: #8f2440;
+  size:1.125rem
+}
+
 }
 
 Typefaces: PT Sans (bold), PT Serif (regular, italic, bold) — from Google Fonts
