@@ -24,7 +24,7 @@ h1 {
 figcaption {
   font-family: "PT Serif";
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-decoration: none;
 }
 
@@ -32,18 +32,23 @@ nav ol li {
   font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
-  size:1.125rem;
+  font-size: 1.125rem;
   list-style-type: none;
 }
 
-nav ol li:hover {
+a {
+  text-decoration: underline;
+  font-family: "PT Sans";
+  font-weight: bold;
+  color: #8f2440;
+  font-size:1.125rem
 }
 
-nav ol li a {
-  font-family: "PT Sans";
-  font-style: bold;
-  color: #8f2440;
-  size:1.125rem
+  a:hover {
+  color: #222;
+  background-color: #3f1622;
+  border-color:#8f2440;
+  text-decoration: underline;
 }
 
 h2 {color: #3f1622;
@@ -53,10 +58,14 @@ h2 {color: #3f1622;
 
 main {
   color: #222;
-}
+  }
 
 blockquote p {
   font-family: "PT Serif";
   font-style: italic;
   font-size: 1.5rem;
-}
+  }
+
+ ol li .types {
+   list-style-type: lower-alpha;
+ }
