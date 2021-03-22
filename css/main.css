@@ -32,7 +32,8 @@ nav ol li {
   font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
-  size:1.125rem
+  size:1.125rem;
+  list-style-type: none;
 }
 
 nav ol li:hover {
@@ -45,9 +46,17 @@ nav ol li a {
   size:1.125rem
 }
 
+h2 {color: #3f1622;
+  font-family: "PT Sans";
+  font-size: 1.5rem;
+  font-weight: bold;}
+
+main {
+  color: #222;
 }
 
-Typefaces: PT Sans (bold), PT Serif (regular, italic, bold) — from Google Fonts
-Text sizes: 1.5rem, 1.125rem, 0.8rem
-Line height: 1.5
-Colours: #c9b5ab, #8f2440, #222, #3f1622
+blockquote p {
+  font-family: "PT Serif";
+  font-style: italic;
+  font-size: 1.5rem;
+}
