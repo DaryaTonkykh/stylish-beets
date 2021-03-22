@@ -36,24 +36,12 @@ nav ol li {
   list-style-type: none;
 }
 
-a {
-  text-decoration: underline;
+nav ol li a {
   font-family: "PT Sans";
   font-weight: bold;
   color: #8f2440;
   font-size: 1.125rem;
-}
-
-a:hover {
-  background-color: #3f1622;
-  border-color: #8f2440;
-  text-decoration: underline;
-}
-
-nav ol li a:hover {
-  background-color: #3f1622;
-  border-color: #8f2440;
-  text-decoration: underline;
+  list-style-type: none;
 }
 
 h2 {
@@ -75,4 +63,27 @@ blockquote p {
 
 .types {
   list-style-type: lower-alpha;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+}
+
+aside ul li {
+  font-size: .8rem;
+}
+
+footer {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+.serving {
+  font-style: italic;
+  font-family: "PT Serif";
 }
